@@ -8,7 +8,6 @@ def main():
         raise Exception("There was a majour error! ")
     data = response.json()
     print("JSON data", data)
-    print(response.text)
 
 if __name__ == "__main__":
     main()
